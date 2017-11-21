@@ -1,0 +1,151 @@
+2017-11-12 11:02:19,164 root INFO Start training
+2017-11-12 11:02:20,717 root INFO Creating Summary for: conv1_1/filter
+2017-11-12 11:02:20,736 root INFO Creating Summary for: conv1_1/biases
+2017-11-12 11:02:20,760 root INFO Creating Summary for: conv1_2/filter
+2017-11-12 11:02:20,780 root INFO Creating Summary for: conv1_2/biases
+2017-11-12 11:02:20,809 root INFO Creating Summary for: conv2_1/filter
+2017-11-12 11:02:20,830 root INFO Creating Summary for: conv2_1/biases
+2017-11-12 11:02:20,859 root INFO Creating Summary for: conv2_2/filter
+2017-11-12 11:02:20,878 root INFO Creating Summary for: conv2_2/biases
+2017-11-12 11:02:20,910 root INFO Creating Summary for: conv3_1/filter
+2017-11-12 11:02:20,931 root INFO Creating Summary for: conv3_1/biases
+2017-11-12 11:02:20,967 root INFO Creating Summary for: conv3_2/filter
+2017-11-12 11:02:20,988 root INFO Creating Summary for: conv3_2/biases
+2017-11-12 11:02:21,023 root INFO Creating Summary for: conv3_3/filter
+2017-11-12 11:02:21,043 root INFO Creating Summary for: conv3_3/biases
+2017-11-12 11:02:21,087 root INFO Creating Summary for: conv4_1/filter
+2017-11-12 11:02:21,109 root INFO Creating Summary for: conv4_1/biases
+2017-11-12 11:02:21,147 root INFO Creating Summary for: conv4_2/filter
+2017-11-12 11:02:21,166 root INFO Creating Summary for: conv4_2/biases
+2017-11-12 11:02:21,206 root INFO Creating Summary for: conv4_3/filter
+2017-11-12 11:02:21,226 root INFO Creating Summary for: conv4_3/biases
+2017-11-12 11:02:21,265 root INFO Creating Summary for: conv5_1/filter
+2017-11-12 11:02:21,288 root INFO Creating Summary for: conv5_1/biases
+2017-11-12 11:02:21,326 root INFO Creating Summary for: conv5_2/filter
+2017-11-12 11:02:21,345 root INFO Creating Summary for: conv5_2/biases
+2017-11-12 11:02:21,386 root INFO Creating Summary for: conv5_3/filter
+2017-11-12 11:02:21,406 root INFO Creating Summary for: conv5_3/biases
+2017-11-12 11:02:22,598 root INFO Creating Summary for: fc6/weights
+2017-11-12 11:02:22,669 root INFO Creating Summary for: fc6/biases
+2017-11-12 11:02:22,787 root INFO Creating Summary for: fc7/weights
+2017-11-12 11:02:22,805 root INFO Creating Summary for: fc7/biases
+2017-11-12 11:02:22,837 root INFO Creating Summary for: score_fr/weights
+2017-11-12 11:02:22,858 root INFO Creating Summary for: score_fr/biases
+2017-11-12 11:02:22,935 tensorflow WARNING From incl/tensorflow_fcn/fcn8_vgg.py:114: calling argmax (from tensorflow.python.ops.math_ops) with dimension is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+2017-11-12 11:02:22,950 root INFO Creating Summary for: upscore2/up_filter
+2017-11-12 11:02:22,979 root INFO Creating Summary for: score_pool4/weights
+2017-11-12 11:02:23,000 root INFO Creating Summary for: score_pool4/biases
+2017-11-12 11:02:23,046 root INFO Creating Summary for: upscore4/up_filter
+2017-11-12 11:02:23,076 root INFO Creating Summary for: score_pool3/weights
+2017-11-12 11:02:23,096 root INFO Creating Summary for: score_pool3/biases
+2017-11-12 11:02:23,133 root INFO Creating Summary for: upscore32/up_filter
+2017-11-12 11:02:41,023 root INFO Step 0/12000: loss = 1.97; lr = 1.00e-05; 0.115 sec (per Batch); 8.7 imgs/sec
+2017-11-12 11:02:43,040 root INFO       (raw)  Acc. : 0.28, xentropy: 1.34, weight_loss: 0.38
+2017-11-12 11:02:43,040 root INFO    (smooth)  Acc. : 0.28, xentropy: 1.34, weight_loss: 0.38
+2017-11-12 11:12:31,446 root INFO Step 100/12000: loss = 0.42; lr = 1.00e-05; 11.768 sec (per Batch); 0.1 imgs/sec
+2017-11-12 11:12:33,305 root INFO       (raw)  Acc. : 0.83, xentropy: 0.46, weight_loss: 0.38
+2017-11-12 11:12:33,305 root INFO    (smooth)  Acc. : 0.31, xentropy: 1.30, weight_loss: 0.38
+2017-11-12 11:22:16,827 root INFO Step 200/12000: loss = 0.38; lr = 1.00e-05; 11.670 sec (per Batch); 0.1 imgs/sec
+2017-11-12 11:22:18,506 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.37
+2017-11-12 11:22:18,506 root INFO    (smooth)  Acc. : 0.35, xentropy: 1.23, weight_loss: 0.38
+2017-11-12 11:32:06,148 root INFO Step 300/12000: loss = 0.37; lr = 1.00e-05; 11.753 sec (per Batch); 0.1 imgs/sec
+2017-11-12 11:32:07,995 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.37
+2017-11-12 11:32:07,995 root INFO    (smooth)  Acc. : 0.38, xentropy: 1.17, weight_loss: 0.38
+2017-11-12 11:41:48,012 root INFO Step 400/12000: loss = 0.42; lr = 1.00e-05; 11.600 sec (per Batch); 0.1 imgs/sec
+2017-11-12 11:41:49,774 root INFO       (raw)  Acc. : 0.98, xentropy: 0.06, weight_loss: 0.36
+2017-11-12 11:41:49,774 root INFO    (smooth)  Acc. : 0.41, xentropy: 1.11, weight_loss: 0.38
+2017-11-12 11:51:31,679 root INFO Step 500/12000: loss = 0.36; lr = 1.00e-05; 11.638 sec (per Batch); 0.1 imgs/sec
+2017-11-12 11:51:33,272 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.36
+2017-11-12 11:51:33,272 root INFO    (smooth)  Acc. : 0.44, xentropy: 1.06, weight_loss: 0.38
+2017-11-12 12:01:24,670 root INFO Step 600/12000: loss = 1.19; lr = 1.00e-05; 11.828 sec (per Batch); 0.1 imgs/sec
+2017-11-12 12:01:26,484 root INFO       (raw)  Acc. : 0.82, xentropy: 0.40, weight_loss: 0.35
+2017-11-12 12:01:26,485 root INFO    (smooth)  Acc. : 0.46, xentropy: 1.03, weight_loss: 0.38
+2017-11-12 12:11:08,121 root INFO Step 700/12000: loss = 1.54; lr = 1.00e-05; 11.633 sec (per Batch); 0.1 imgs/sec
+2017-11-12 12:11:10,014 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.34
+2017-11-12 12:11:10,014 root INFO    (smooth)  Acc. : 0.48, xentropy: 0.97, weight_loss: 0.37
+2017-11-12 12:20:55,381 root INFO Step 800/12000: loss = 0.33; lr = 1.00e-05; 11.707 sec (per Batch); 0.1 imgs/sec
+2017-11-12 12:20:57,145 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.33
+2017-11-12 12:20:57,146 root INFO    (smooth)  Acc. : 0.51, xentropy: 0.93, weight_loss: 0.37
+2017-11-12 12:30:36,748 root INFO Step 900/12000: loss = 0.33; lr = 1.00e-05; 11.592 sec (per Batch); 0.1 imgs/sec
+2017-11-12 12:30:38,565 root INFO       (raw)  Acc. : 0.42, xentropy: 3.64, weight_loss: 0.33
+2017-11-12 12:30:38,565 root INFO    (smooth)  Acc. : 0.51, xentropy: 1.06, weight_loss: 0.37
+2017-11-12 12:40:18,560 root INFO Step 1000/12000: loss = 0.83; lr = 1.00e-05; 11.600 sec (per Batch); 0.1 imgs/sec
+2017-11-12 12:40:20,507 root INFO       (raw)  Acc. : 0.77, xentropy: 0.50, weight_loss: 0.32
+2017-11-12 12:40:20,508 root INFO    (smooth)  Acc. : 0.52, xentropy: 1.03, weight_loss: 0.37
+2017-11-12 12:40:27,356 root INFO Running Evaluation Script.
+2017-11-12 13:13:37,777 root INFO Evaluation Finished. All results will be saved to:
+2017-11-12 13:13:37,778 root INFO /home/green/AllRialtoSeg/hypes/../RUNS/KittiSeg_2017_11_12_11.02
+2017-11-12 13:13:37,805 root INFO Raw Results:
+2017-11-12 13:13:37,805 root INFO     [train] MaxF1 (raw)    :  90.3049 
+2017-11-12 13:13:37,805 root INFO     [train] BestThresh (raw)    :  11.7647 
+2017-11-12 13:13:37,805 root INFO     [train] Average Precision (raw)    :  89.7937 
+2017-11-12 13:13:37,805 root INFO     [val] MaxF1 (raw)    :  89.9143 
+2017-11-12 13:13:37,805 root INFO     [val] BestThresh (raw)    :  0.3922 
+2017-11-12 13:13:37,806 root INFO     [val] Average Precision (raw)    :  89.9082 
+2017-11-12 13:13:37,806 root INFO     Speed (msec) (raw)    :  1946.8163 
+2017-11-12 13:13:37,806 root INFO     Speed (fps) (raw)    :  0.5137 
+2017-11-12 13:13:37,806 root INFO Smooth Results:
+2017-11-12 13:13:37,808 root INFO     [train] MaxF1 (smooth) :  90.3049 
+2017-11-12 13:13:37,808 root INFO     [train] BestThresh (smooth) :  11.7647 
+2017-11-12 13:13:37,808 root INFO     [train] Average Precision (smooth) :  89.7937 
+2017-11-12 13:13:37,808 root INFO     [val] MaxF1 (smooth) :  89.9143 
+2017-11-12 13:13:37,808 root INFO     [val] BestThresh (smooth) :  0.3922 
+2017-11-12 13:13:37,808 root INFO     [val] Average Precision (smooth) :  89.9082 
+2017-11-12 13:13:37,808 root INFO     Speed (msec) (smooth) :  1946.8163 
+2017-11-12 13:13:37,808 root INFO     Speed (fps) (smooth) :  0.5137 
+2017-11-12 13:23:28,529 root INFO Step 1100/12000: loss = 0.65; lr = 1.00e-05; 11.697 sec (per Batch); 0.1 imgs/sec
+2017-11-12 13:23:30,312 root INFO       (raw)  Acc. : 0.90, xentropy: 0.26, weight_loss: 0.31
+2017-11-12 13:23:30,313 root INFO    (smooth)  Acc. : 0.54, xentropy: 0.99, weight_loss: 0.36
+2017-11-12 13:33:13,800 root INFO Step 1200/12000: loss = 0.44; lr = 1.00e-05; 11.670 sec (per Batch); 0.1 imgs/sec
+2017-11-12 13:33:15,494 root INFO       (raw)  Acc. : 0.94, xentropy: 0.17, weight_loss: 0.31
+2017-11-12 13:33:15,494 root INFO    (smooth)  Acc. : 0.56, xentropy: 0.95, weight_loss: 0.36
+2017-11-12 13:43:04,904 root INFO Step 1300/12000: loss = 0.34; lr = 1.00e-05; 11.788 sec (per Batch); 0.1 imgs/sec
+2017-11-12 13:43:06,679 root INFO       (raw)  Acc. : 0.99, xentropy: 0.02, weight_loss: 0.30
+2017-11-12 13:43:06,680 root INFO    (smooth)  Acc. : 0.58, xentropy: 0.91, weight_loss: 0.36
+2017-11-12 13:52:52,062 root INFO Step 1400/12000: loss = 0.29; lr = 1.00e-05; 11.708 sec (per Batch); 0.1 imgs/sec
+2017-11-12 13:52:53,790 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.29
+2017-11-12 13:52:53,791 root INFO    (smooth)  Acc. : 0.60, xentropy: 0.86, weight_loss: 0.35
+2017-11-12 14:02:41,899 root INFO Step 1500/12000: loss = 0.29; lr = 1.00e-05; 11.762 sec (per Batch); 0.1 imgs/sec
+2017-11-12 14:02:43,606 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.29
+2017-11-12 14:02:43,607 root INFO    (smooth)  Acc. : 0.62, xentropy: 0.82, weight_loss: 0.35
+2017-11-12 14:12:31,631 root INFO Step 1600/12000: loss = 0.28; lr = 1.00e-05; 11.760 sec (per Batch); 0.1 imgs/sec
+2017-11-12 14:12:33,468 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.28
+2017-11-12 14:12:33,468 root INFO    (smooth)  Acc. : 0.64, xentropy: 0.78, weight_loss: 0.35
+2017-11-12 14:22:20,384 root INFO Step 1700/12000: loss = 0.53; lr = 1.00e-05; 11.738 sec (per Batch); 0.1 imgs/sec
+2017-11-12 14:22:22,230 root INFO       (raw)  Acc. : 0.91, xentropy: 0.24, weight_loss: 0.27
+2017-11-12 14:22:22,231 root INFO    (smooth)  Acc. : 0.65, xentropy: 0.75, weight_loss: 0.34
+2017-11-12 14:32:05,618 root INFO Step 1800/12000: loss = 0.36; lr = 1.00e-05; 11.668 sec (per Batch); 0.1 imgs/sec
+2017-11-12 14:32:07,424 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.27
+2017-11-12 14:32:07,425 root INFO    (smooth)  Acc. : 0.67, xentropy: 0.71, weight_loss: 0.34
+2017-11-12 14:41:42,264 root INFO Step 1900/12000: loss = 0.50; lr = 1.00e-05; 11.497 sec (per Batch); 0.1 imgs/sec
+2017-11-12 14:41:44,152 root INFO       (raw)  Acc. : 0.94, xentropy: 0.19, weight_loss: 0.26
+2017-11-12 14:41:44,153 root INFO    (smooth)  Acc. : 0.68, xentropy: 0.69, weight_loss: 0.34
+2017-11-12 14:51:32,178 root INFO Step 2000/12000: loss = 0.27; lr = 1.00e-05; 11.761 sec (per Batch); 0.1 imgs/sec
+2017-11-12 14:51:33,919 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.25
+2017-11-12 14:51:33,919 root INFO    (smooth)  Acc. : 0.70, xentropy: 0.65, weight_loss: 0.33
+2017-11-12 14:51:41,164 root INFO Running Evaluation Script.
+2017-11-12 15:24:48,082 root INFO Evaluation Finished. All results will be saved to:
+2017-11-12 15:24:48,083 root INFO /home/green/AllRialtoSeg/hypes/../RUNS/KittiSeg_2017_11_12_11.02
+2017-11-12 15:24:48,120 root INFO Raw Results:
+2017-11-12 15:24:48,120 root INFO     [train] MaxF1 (raw)    :  92.6165 
+2017-11-12 15:24:48,120 root INFO     [train] BestThresh (raw)    :  18.4314 
+2017-11-12 15:24:48,120 root INFO     [train] Average Precision (raw)    :  90.7943 
+2017-11-12 15:24:48,120 root INFO     [val] MaxF1 (raw)    :  95.7872 
+2017-11-12 15:24:48,120 root INFO     [val] BestThresh (raw)    :  16.8627 
+2017-11-12 15:24:48,121 root INFO     [val] Average Precision (raw)    :  93.0508 
+2017-11-12 15:24:48,121 root INFO     Speed (msec) (raw)    :  1938.5532 
+2017-11-12 15:24:48,121 root INFO     Speed (fps) (raw)    :  0.5158 
+2017-11-12 15:24:48,121 root INFO Smooth Results:
+2017-11-12 15:24:48,123 root INFO     [train] MaxF1 (smooth) :  91.4607 
+2017-11-12 15:24:48,123 root INFO     [train] BestThresh (smooth) :  15.0980 
+2017-11-12 15:24:48,123 root INFO     [train] Average Precision (smooth) :  90.2940 
+2017-11-12 15:24:48,123 root INFO     [val] MaxF1 (smooth) :  92.8507 
+2017-11-12 15:24:48,124 root INFO     [val] BestThresh (smooth) :  8.6275 
+2017-11-12 15:24:48,124 root INFO     [val] Average Precision (smooth) :  91.4795 
+2017-11-12 15:24:48,124 root INFO     Speed (msec) (smooth) :  1942.6848 
+2017-11-12 15:24:48,124 root INFO     Speed (fps) (smooth) :  0.5148 
+2017-11-12 15:34:38,816 root INFO Step 2100/12000: loss = 0.28; lr = 1.00e-05; 11.696 sec (per Batch); 0.1 imgs/sec
+2017-11-12 15:34:40,536 root INFO       (raw)  Acc. : 1.00, xentropy: 0.00, weight_loss: 0.25
+2017-11-12 15:34:40,537 root INFO    (smooth)  Acc. : 0.72, xentropy: 0.62, weight_loss: 0.33

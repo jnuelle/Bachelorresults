@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/green/DayRialtoSeg/hypes/../RUNS/KittiSeg_2017_11_07_10.28/model.ckpt-11999"
+all_model_checkpoint_paths: "/home/green/DayRialtoSeg/hypes/../RUNS/KittiSeg_2017_11_07_10.28/model.ckpt-11999"

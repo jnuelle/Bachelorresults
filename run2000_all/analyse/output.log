@@ -1,0 +1,76 @@
+2017-11-12 22:24:38,812 root INFO Evaluation Succesfull. Results:
+2017-11-12 22:24:38,812 root INFO     [train] MaxF1  :  92.6165 
+2017-11-12 22:24:38,812 root INFO     [train] BestThresh  :  18.4314 
+2017-11-12 22:24:38,812 root INFO     [train] Average Precision  :  90.7943 
+2017-11-12 22:24:38,813 root INFO     [val] MaxF1  :  95.7872 
+2017-11-12 22:24:38,813 root INFO     [val] BestThresh  :  16.8627 
+2017-11-12 22:24:38,813 root INFO     [val] Average Precision  :  93.0508 
+2017-11-12 22:24:38,813 root INFO     Speed (msec)  :  1367.7813 
+2017-11-12 22:24:38,813 root INFO     Speed (fps)  :  0.7311 
+2017-11-12 22:24:39,233 root INFO Creating output on test data.
+2017-11-12 22:24:39,234 root INFO f: <open file 'RUNS/KittiSeg_pretrained/model_files/hypes.json', mode 'r' at 0x7f2d1a1e1db0>
+2017-11-12 22:24:39,474 root INFO Creating Summary for: conv1_1/filter
+2017-11-12 22:24:39,492 root INFO Creating Summary for: conv1_1/biases
+2017-11-12 22:24:39,515 root INFO Creating Summary for: conv1_2/filter
+2017-11-12 22:24:39,532 root INFO Creating Summary for: conv1_2/biases
+2017-11-12 22:24:39,556 root INFO Creating Summary for: conv2_1/filter
+2017-11-12 22:24:39,574 root INFO Creating Summary for: conv2_1/biases
+2017-11-12 22:24:39,598 root INFO Creating Summary for: conv2_2/filter
+2017-11-12 22:24:39,616 root INFO Creating Summary for: conv2_2/biases
+2017-11-12 22:24:39,641 root INFO Creating Summary for: conv3_1/filter
+2017-11-12 22:24:39,660 root INFO Creating Summary for: conv3_1/biases
+2017-11-12 22:24:39,684 root INFO Creating Summary for: conv3_2/filter
+2017-11-12 22:24:39,702 root INFO Creating Summary for: conv3_2/biases
+2017-11-12 22:24:39,727 root INFO Creating Summary for: conv3_3/filter
+2017-11-12 22:24:39,745 root INFO Creating Summary for: conv3_3/biases
+2017-11-12 22:24:39,774 root INFO Creating Summary for: conv4_1/filter
+2017-11-12 22:24:39,792 root INFO Creating Summary for: conv4_1/biases
+2017-11-12 22:24:39,821 root INFO Creating Summary for: conv4_2/filter
+2017-11-12 22:24:39,839 root INFO Creating Summary for: conv4_2/biases
+2017-11-12 22:24:39,867 root INFO Creating Summary for: conv4_3/filter
+2017-11-12 22:24:39,886 root INFO Creating Summary for: conv4_3/biases
+2017-11-12 22:24:39,914 root INFO Creating Summary for: conv5_1/filter
+2017-11-12 22:24:39,932 root INFO Creating Summary for: conv5_1/biases
+2017-11-12 22:24:39,961 root INFO Creating Summary for: conv5_2/filter
+2017-11-12 22:24:39,978 root INFO Creating Summary for: conv5_2/biases
+2017-11-12 22:24:40,007 root INFO Creating Summary for: conv5_3/filter
+2017-11-12 22:24:40,025 root INFO Creating Summary for: conv5_3/biases
+2017-11-12 22:24:40,658 root INFO Creating Summary for: fc6/weights
+2017-11-12 22:24:40,675 root INFO Creating Summary for: fc6/biases
+2017-11-12 22:24:40,743 root INFO Creating Summary for: fc7/weights
+2017-11-12 22:24:40,763 root INFO Creating Summary for: fc7/biases
+2017-11-12 22:24:40,788 root INFO Creating Summary for: score_fr/weights
+2017-11-12 22:24:40,806 root INFO Creating Summary for: score_fr/biases
+2017-11-12 22:24:40,839 root INFO Creating Summary for: upscore2/up_filter
+2017-11-12 22:24:40,941 root INFO Creating Summary for: score_pool4/weights
+2017-11-12 22:24:40,958 root INFO Creating Summary for: score_pool4/biases
+2017-11-12 22:24:40,991 root INFO Creating Summary for: upscore4/up_filter
+2017-11-12 22:24:41,018 root INFO Creating Summary for: score_pool3/weights
+2017-11-12 22:24:41,035 root INFO Creating Summary for: score_pool3/biases
+2017-11-12 22:24:41,069 root INFO Creating Summary for: upscore32/up_filter
+2017-11-12 22:24:41,176 root INFO /home/green/AllRialtoSeg/hypes/../RUNS/KittiSeg_2017_11_12_11.02/model.ckpt-2000
+2017-11-12 22:24:41,176 tensorflow INFO Restoring parameters from RUNS/KittiSeg_pretrained/model.ckpt-2000
+2017-11-12 22:24:42,001 root INFO Images will be written to test_images//test_images_{green, rg}
+2017-11-12 22:25:33,726 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_1.png
+2017-11-12 22:26:09,161 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_2.png
+2017-11-12 22:26:53,345 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_3.png
+2017-11-12 22:27:28,151 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_4.png
+2017-11-12 22:27:56,299 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_5.png
+2017-11-12 22:28:24,291 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_6.png
+2017-11-12 22:28:50,917 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_7.png
+2017-11-12 22:29:19,574 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_8.png
+2017-11-12 22:29:48,149 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_9.png
+2017-11-12 22:30:16,225 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_10.png
+2017-11-12 22:30:44,196 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_11.png
+2017-11-12 22:31:13,838 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_12.png
+2017-11-12 22:31:41,719 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_13.png
+2017-11-12 22:32:11,313 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_14.png
+2017-11-12 22:32:39,920 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_15.png
+2017-11-12 22:33:08,336 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_16.png
+2017-11-12 22:33:40,288 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_17.png
+2017-11-12 22:34:07,031 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_18.png
+2017-11-12 22:34:37,229 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_19.png
+2017-11-12 22:35:04,980 root INFO Writing file: /home/green/Bachelorthesis/AllRialtoSeg/RUNS/KittiSeg_pretrained/test_images/testRialto_all_20.png
+2017-11-12 22:35:09,221 root INFO Analysis for pretrained model complete.
+2017-11-12 22:35:09,222 root INFO For evaluating your own models I recommend using:`tv-analyze --logdir /path/to/run`.
+2017-11-12 22:35:09,244 root INFO tv-analysis has a much cleaner interface.
