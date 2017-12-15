@@ -5,4 +5,4 @@ All test result are available in the 'all.txt' and 'day.txt'
 
 The diffrent results for each run can be found in the folders run*.
 
-Unfortunately the trained models are around 50GB and so to big to be upload here, so they'll be uploaded soon somewhere else.
+Link to the [trained models](https://mega.nz/#F!MzRnkDKY!wsHq5iyDfVDJY2bIoN0jUA)
